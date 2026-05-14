@@ -16,7 +16,7 @@ Según el notebook, se evaluaron cinco enfoques:
 
 ## Dataset
 
-El notebook reporta que el conjunto original tiene:
+El conjunto original tiene:
 
 - `277570` registros
 - `13` columnas
@@ -76,7 +76,7 @@ Los scripts [Proyecto/limpieza_y_balanceo.py](./Proyecto/limpieza_y_balanceo.py)
 
 ## Variables derivadas
 
-Basado en el análisis comparativo entre clases, el notebook agrega nuevas variables para capturar relaciones entre recursos y estado de las tareas:
+Con base en el análisis comparativo entre clases, se agregan nuevas variables para capturar relaciones entre recursos y estado de las tareas:
 
 - `io_vs_network_ratio`
 - `priority_index`
@@ -122,7 +122,7 @@ Scripts principales disponibles:
 
 Nota importante:
 
-- El notebook sí incluye el experimento de `Random Forest`, pero en este repositorio no aparece un script `.py` dedicado para ese modelo; su flujo principal quedó documentado dentro del notebook.
+- El experimento de `Random Forest` sí está desarrollado en el trabajo principal, pero en este repositorio no aparece un script `.py` dedicado para ese modelo; su flujo principal quedó documentado en el notebook.
 
 ## Resultados reportados en el notebook
 
@@ -136,7 +136,7 @@ Sobre datos balanceados, el resumen comparativo del notebook reporta:
 | Regresión Logística | 0.7840 | 0.77 | 0.80 |
 | DNN | 0.7999 | 0.78 | 0.81 |
 
-Conclusión principal del notebook:
+Conclusión principal del proyecto:
 
 - `Random Forest` fue el mejor modelo global en el conjunto balanceado.
 - `Árbol de Decisión` también mostró un rendimiento competitivo.
@@ -173,7 +173,7 @@ Ajuste de umbral:
 
 ### Random Forest
 
-El notebook lo reporta como mejor modelo global en datos balanceados:
+En los resultados del proyecto, aparece como el mejor modelo global en datos balanceados:
 
 - `Accuracy`: `0.8970`
 - `Precisión anómala`: `0.93`
