@@ -251,7 +251,5 @@ u.main(
 ```
 
 ## Observaciones
-
-- El nombre del notebook principal es `TrrabajoFinalIA.ipynb` con doble `r`, y el `README` lo conserva tal como existe en el repositorio.
 - Algunos scripts esperan ejecutarse desde la carpeta `Proyecto/`, porque usan rutas relativas a los CSV generados.
 - Hay archivos auxiliares de ejemplos académicos en `Proyecto/tree/`, `Proyecto/regression/` y `Proyecto/Random_Forest/` que no forman parte central del pipeline de detección de anomalías cloud.
