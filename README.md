@@ -252,4 +252,3 @@ u.main(
 
 ## Observaciones
 - Algunos scripts esperan ejecutarse desde la carpeta `Proyecto/`, porque usan rutas relativas a los CSV generados.
-- Hay archivos auxiliares de ejemplos académicos en `Proyecto/tree/`, `Proyecto/regression/` y `Proyecto/Random_Forest/` que no forman parte central del pipeline de detección de anomalías cloud.
